@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&display=swap');
 
 :root {
   --attr-color: rgb(193, 204, 240);
@@ -20,13 +21,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-}
-
-body {
-  min-height: 100vh;
-  font-size: 15px;
-  line-height: 1.5;
-  text-rendering: optimizeSpeed;
 }
 
 img,

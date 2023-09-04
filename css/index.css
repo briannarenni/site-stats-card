@@ -1,4 +1,16 @@
 /* * 375px - 1440px */
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  background-color: var(--main-bkg);
+  color: var(--white);
+  font-size: 15px;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+.font {}
+
 /* Footer */
 .footer {
   color: var(--white);
