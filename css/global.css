@@ -7,8 +7,10 @@
   --main-bkg: rgb(9, 11, 26);
   --card-bkg: rgb(27, 25, 56);
   --accent: rgb(170, 92, 219);
+  --overlay: rgba(157, 0, 255, 0.44);
   --pg-white: rgba(255, 255, 255, 0.75);
   --heading-white: rgba(255, 255, 255, 0.6);
+  --radius: 10px;
 }
 
 *,
@@ -18,7 +20,9 @@
 }
 
 html,
-body {
+body,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -31,4 +35,8 @@ picture {
 
 button {
   font: inherit;
+}
+
+ul {
+  list-style: none;
 }
