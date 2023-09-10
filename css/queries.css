@@ -1,5 +1,31 @@
-@media screen and (max-width: 799px) {
-  /* body {
-    font-size: 14px;
-  } */
+/* 375px - 799px */
+/* ? 800px - 1023px */
+/* 1024px - 1440px */
+
+/* ! Scrollbar after 375px */
+
+@media screen and (min-width:800px) {
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .card {
+    flex-direction: row;
+  }
+
+  .hero-text {
+    max-width: 50%;
+    text-align: left;
+  }
+
+  .graphic {
+    order: 1;
+  }
+
+  .list {
+    flex-direction: row;
+  }
+
+
 }
