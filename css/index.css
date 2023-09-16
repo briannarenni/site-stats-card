@@ -20,6 +20,7 @@ body {
 }
 
 .card {
+  max-width: 1080px;
   display: flex;
   flex-direction: column;
   background-color: var(--card-bkg);
@@ -85,7 +86,7 @@ body {
 }
 
 .sub-lead {
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 .subtext {
