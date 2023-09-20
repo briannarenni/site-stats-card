@@ -1,31 +1,33 @@
 body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  height: 100vh;
-  /* padding: 20px; */
   background-color: var(--main-bkg);
   color: var(--white);
   font-size: 15px;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
+  padding: 15px;
 }
 
 .card {
   max-width: 85%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--card-bkg);
   text-align: center;
   border-radius: var(--radius);
-
 }
 
 /* Content */
 .hero-text {
-  padding: 30px 30px 0px 30px;
+  max-width: 75%;
+  /* padding: 15px; */
 }
 
 .list {
@@ -44,6 +46,7 @@ body {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .graphic::before {
@@ -73,7 +76,7 @@ body {
 }
 
 .lead {
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 
 .stats {
